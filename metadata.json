@@ -1,0 +1,6 @@
+{
+  "name": "MuleShield",
+  "description": "AI-powered UPI fraud investigation and mule network intelligence platform for cybercrime investigation units.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

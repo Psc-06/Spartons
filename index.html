@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MuleShield — UPI Fraud Investigation &amp; Mule Network Intelligence</title>
+    <meta
+      name="description"
+      content="AI-powered UPI fraud investigation and mule network intelligence platform for cybercrime investigation units."
+    />
+    <meta property="og:title" content="MuleShield — UPI Fraud Investigation &amp; Mule Network Intelligence" />
+    <meta
+      property="og:description"
+      content="Connect Complaints. Trace Funds. Expose Mule Networks. Investigative analytics for UPI fraud complaints and multi-hop transaction ledgers."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.addEventListener(
+        'error',
+        function (event) {
+          if (
+            typeof event.filename === 'string' &&
+            (event.filename.startsWith('chrome-extension://') ||
+              event.filename.startsWith('moz-extension://'))
+          ) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+          }
+        },
+        true,
+      );
+    </script>
+  </head>
+  <body class="bg-[#0B1120] text-[#F1F5F9] antialiased selection:bg-[#3B82F6]/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
